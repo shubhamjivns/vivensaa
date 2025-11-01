@@ -3,6 +3,9 @@ import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import { IoChevronBack, IoChevronForward } from "react-icons/io5";
+import banner1 from "../../assets/banner-7.png";
+import banner4 from "../../assets/banner-4.png";
+import banner7 from "../../assets/banner-1.png";
 
 export default function Slider() {
     return (
@@ -23,21 +26,21 @@ export default function Slider() {
             >
                 <SwiperSlide>
                     <img
-                        src="src/assets/banner 7.png"
+                        src={banner1}
                         alt="slider banner"
                         className="rounded-[20px] w-full"
                     />
                 </SwiperSlide>
                 <SwiperSlide>
                     <img
-                        src="src/assets/banner 4.png"
+                        src={banner4}
                         alt="slider banner"
                         className="rounded-[20px] w-full"
                     />
                 </SwiperSlide>
                 <SwiperSlide>
                     <img
-                        src="src/assets/banner 1.png"
+                        src={banner7}
                         alt="slider banner"
                         className="rounded-[20px] w-full"
                     />
